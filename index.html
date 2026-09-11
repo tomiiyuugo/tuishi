@@ -1,1 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>西条市の特産品「愛宕柿」</title>
+
+    <style>
+        /* ページ全体 */
+        body {
+            margin: 0;
+            font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+            background-color: #fff8e8;
+            color: #4b3425;
+            line-height: 1.8;
+        }
+
+        /* ヘッダー */
+        header {
+            background: linear-gradient(135deg, #e98b2a, #f4b942);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* メイン */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* 各セクション */
+        section {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #c96d16;
+            border-left: 7px solid #f0a202;
+            padding-left: 12px;
+        }
+
+        /* 写真 */
+        .main-photo {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .caption {
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* リスト */
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* 表 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #d9b88c;
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f6c667;
+            color: #543414;
+            width: 30%;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #fffaf0;
+        }
+
+        /* ボタン */
+        .buttons {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 8px;
+            padding: 14px 25px;
+            background-color: #d97706;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #9a4f08;
+            transform: translateY(-3px);
+        }
+
+        /* JavaScript用ボタン */
+        #messageButton {
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* フッター */
+        footer {
+            background-color: #5c3b25;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        /* スマートフォン対応 */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+
+            .button {
+                display: block;
+                margin: 12px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ページの一番上の大見出し -->
+    <header>
+        <h1>愛宕柿</h1>
+        <p>あたごがき ― 西条市を代表する秋の特産品</p>
+    </header>
+
+    <main>
+
+        <!-- 写真 -->
+        <section>
+            <h2>愛宕柿の写真</h2>
+
+            <!-- 配布された写真を images フォルダに入れてください -->
+            <img
+                src="images/atagogaki.jpg"
+                alt="愛宕柿の写真"
+                class="main-photo"
+            >
+
+            <p class="caption">
+                教員から配布された愛宕柿の写真
+            </p>
+        </section>
+
+
+        <!-- 魅力・特徴 -->
+        <section>
+            <h2>愛宕柿の魅力・特徴</h2>
+
+            <p>
+                愛宕柿は、愛媛県西条市を代表する特産品の一つです。
+                西条市では古くから柿の栽培が盛んで、特に丹原地区などで多く栽培されています。
+            </p>
+
+            <p>
+                愛宕柿は渋柿の一種ですが、渋抜きをすることで甘くおいしく食べることができます。
+                大きくて食べごたえがあり、秋から冬にかけて楽しめるのも魅力です。
+            </p>
+
+            <p>
+                西条市では愛宕柿をはじめ、横野柿や富有柿など、さまざまな種類の柿が栽培されています。
+                地域の自然や農家の方々の努力によって、おいしい柿が作られています。
+            </p>
+
+            <p>
+                愛宕柿はそのまま食べるだけでなく、加工品にも利用されており、
+                西条市の農業や食文化を知ることができる特産品です。
+            </p>
+        </section>
+
+
+        <!-- おすすめの食べ方 -->
+        <section>
+            <h2>おすすめの食べ方・活用法</h2>
+
+            <ul>
+                <li>渋抜きした愛宕柿を、そのまま食べる。</li>
+                <li>皮をむいて冷やして食べ、秋のデザートとして楽しむ。</li>
+                <li>干し柿やあんぽ柿などの加工品として味わう。</li>
+                <li>柿を使ったお菓子や料理の材料として活用する。</li>
+                <li>地域の特産品として、お土産や贈り物にする。</li>
+            </ul>
+        </section>
+
+
+        <!-- 基本情報 -->
+        <section>
+            <h2>愛宕柿の基本情報</h2>
+
+            <table>
+                <tr>
+                    <th>旬の時期</th>
+                    <td>11月下旬～年末頃</td>
+                </tr>
+
+                <tr>
+                    <th>主な産地</th>
+                    <td>愛媛県西条市など</td>
+                </tr>
+
+                <tr>
+                    <th>種類</th>
+                    <td>渋柿</td>
+                </tr>
+
+                <tr>
+                    <th>特徴</th>
+                    <td>大きく、渋抜きをすることで甘くおいしく食べられる</td>
+                </tr>
+
+                <tr>
+                    <th>活用方法</th>
+                    <td>生食、干し柿、加工品、お菓子など</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <!-- ボタン -->
+        <section>
+            <h2>もっと知りたい人はこちら</h2>
+
+            <div class="buttons">
+
+                <!-- ボタン① 西条農業高校 -->
+                <a
+                    class="button"
+                    href="https://ehm-saijo-ah.esnet.ed.jp/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    西条農業高校の公式サイト
+                </a>
+
+                <!-- ボタン② 西条市公式サイト -->
+                <a
+                    class="button"
+                    href="https://www.city.saijo.ehime.jp/soshiki/sangyoshinko/gurume2.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    西条市の愛宕柿情報を見る
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- JavaScript -->
+        <section>
+            <h2>愛宕柿を応援しよう！</h2>
+
+            <p id="message">
+                ボタンを押してみてください。
+            </p>
+
+            <div class="buttons">
+                <button
+                    id="messageButton"
+                    class="button"
+                    onclick="changeMessage()"
+                >
+                    愛宕柿の魅力を表示
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- フッター -->
+    <footer>
+        <p>西条市の特産品「愛宕柿」紹介サイト</p>
+        <p>愛媛県立西条農業高等学校</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        function changeMessage() {
+            const message = document.getElementById("message");
+            const button = document.getElementById("messageButton");
+
+            message.textContent =
+                "愛宕柿は、西条市の豊かな自然と農家の方々の努力によって育てられた大切な特産品です！";
+
+            message.style.color = "#d97706";
+            message.style.fontWeight = "bold";
+
+            button.textContent = "愛宕柿をもっと知ろう！";
+            button.style.backgroundColor = "#a855f7";
+        }
+    </script>
+
+</body>
+</html>
